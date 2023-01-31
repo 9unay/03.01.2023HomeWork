@@ -14,9 +14,6 @@ section {
 }
 
 #square .box {
-  display: flex;
-  align-items: center;
-  justify-content: center;
   border: 1px solid #217043;
   background-color: #597fc7;
   width: 160px;
@@ -77,6 +74,8 @@ section {
 }
 @media screen and (max-width: 800px) {
   #rectangle .box {
+    display: flex;
+    align-items: center;
     border: 1px solid #cc8cf4;
     width: 90px;
     height: 70px;
