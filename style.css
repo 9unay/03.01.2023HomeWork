@@ -98,7 +98,6 @@ section {
 #circle .box {
   display: flex;
   flex-direction: row;
-  padding: 45px;
   border: 1px solid rgba(154, 92, 33, 0.7921568627);
   border-radius: 90px;
   width: 160px;
@@ -115,7 +114,6 @@ section {
   #circle .box {
     display: flex;
     flex-direction: row;
-    padding: 75px;
     border: 1px solid rgba(154, 92, 33, 0.7921568627);
     border-radius: 100px;
     width: 190px;
@@ -130,7 +128,6 @@ section {
   #circle .box {
     display: flex;
     flex-direction: column;
-    padding: 5px;
     border: 1px solid rgba(233, 245, 126, 0.7921568627);
     border-radius: 60px;
     width: 55px;
