@@ -1,0 +1,41 @@
+#circle
+    .box
+        display: flex
+        flex-direction: row
+        padding: 45px
+        border: 1px solid #9a5c21ca
+        border-radius: 90px
+        width: 160px
+        height: 160px
+        background-color: #9a5c21ca
+        color: #ffff
+        font-size: 30px
+        &:hover
+            border-radius: 20px
+            transition: 3s
+
+    @media screen and ( min-width:801px  )
+        .box
+            display: flex
+            flex-direction: row
+            padding: 75px
+            border: 1px solid #9a5c21ca
+            border-radius: 100px
+            width: 190px
+            height: 190px
+            background-color: #9a5c21ca
+            color: #ffff
+            font-size: 30px
+            text-align: center
+
+    @media screen and (max-width: 800px)
+        .box
+            display: flex
+            flex-direction: column
+            padding: 5px
+            border: 1px solid #e9f57eca
+            border-radius: 60px
+            width: 55px
+            height: 55px
+            background-color: #e9f57eca
+            color: #ffff

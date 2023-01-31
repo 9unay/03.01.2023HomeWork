@@ -1,0 +1,42 @@
+#square
+    .box
+        display: flex
+        align-items: center
+        justify-content: center
+        border: 1px solid #217043
+        background-color: #597fc7
+        width: 160px
+        height: 160px
+        .minibox
+            padding: 30px
+            border: 1px solid #3d598f
+            background-color: #3d598f
+            color: #ffff
+            width: 90px
+            height: 90px
+            &:hover
+                transition: 2s
+                width: 120px
+                height: 120px
+                padding: 40px
+
+    @media screen and (max-width:577px)
+        .box
+            display: flex
+            flex-direction: column
+            border: 2px solid #217043
+            background-color: #597fc7
+            width: 160px
+            height: 160px
+            .minibox
+                padding: 30px
+                border: 1px solid #3d598f
+                background-color: #3d598f
+                color: #ffff
+                width: 90px
+                height: 90px
+                &:hover
+                    transition: 2s
+                    width: 120px
+                    height: 120px
+                    padding: 40px
